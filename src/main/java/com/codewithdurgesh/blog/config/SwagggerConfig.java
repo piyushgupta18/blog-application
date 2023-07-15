@@ -49,7 +49,7 @@ public class SwagggerConfig {
 
 	private ApiInfo getInfo() {
 
-		return new ApiInfo("Blogging Application : Backend Course",
+		return new ApiInfo("Blogging Application",
 				"This project is developed by Piyush", "1.0", "Terms of Service",
 				new Contact("Piyush", "https://www.linkedin.com/in/piyush-gupta-45b9681a6/", "piyush.gupta1811@gmail.com"),
 				"License of APIS", "API license URL", Collections.emptyList());
