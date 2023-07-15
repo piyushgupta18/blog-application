@@ -6,6 +6,6 @@ FROM openjdk:8-jre-slim
 COPY --from=build /target/blog-app-apis-0.0.1-SNAPSHOT.jar demo.jar
 EXPOSE 8080
 # Set the environment variable
-ENV SPRING_DATASOURCE_PASSWORD=pscale_pw_NBmh3DqVKmMkgBT1MFTNN3ToxJZR7SsTre3Zvv1pnJx
+ENV SPRING_DATASOURCE_PASSWORD=pscale_pw_gKUoyWK6GWFilRbzPvmetF6bB9kVxOGvcnCm2R8zne5
 ENTRYPOINT ["java","-jar","demo.jar"]
 
